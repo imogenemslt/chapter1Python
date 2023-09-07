@@ -25,5 +25,5 @@ print(volume)
 totalLiquid=350
 total=(totalLiquid/volume)
 total=round(total,0)
-
-
+print(total)
+#task8 page 19
