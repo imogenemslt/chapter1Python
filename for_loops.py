@@ -42,10 +42,15 @@ while counter<=10:
 number= int(input("please enter a number"))
 for i in range(1,number,2):
     print(i)
-    
+
 #task3 pg37
-sententce= (input("please enter a sentence"))
-for i in 
+number= int(input("please enter a number"))
+for i in range(2,number,2):
+    print(i)
+
+#task4 pg37
+sentence= str(input("please enter a sentence"))
+print(sentence)
 
     
     
