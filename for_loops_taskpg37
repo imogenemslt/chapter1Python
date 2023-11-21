@@ -49,9 +49,21 @@ for i in range(2,number,2):
     print(i)
 
 #task4 pg37
-sentence= str(input("please enter a sentence"))
+sentence= input("please enter a sentence")
 print(sentence)
+reversesentence=""
+for i in sentence:
+    reversesentence = i+ reversesentence
+print(reversesentence)
 
+#task5 pg38
+phrase = input("please enter a sentence ")
+character = input("please enter a character ")
+charcount = 0
+for i in phrase:
+    if i ==character:
+        charcount +=1
+print(charcount)
     
     
               
